@@ -2,20 +2,14 @@ let iskorisceniNiz = [];
 
 
 function getRandomName(arr) 
-{   //ovde se prazni niz
-    let neiskorisceniNiz = [];
+{   
     if (iskorisceniNiz.length >= arr.length){
         iskorisceniNiz = [];
     }
-    //ovde se puni neiskorisceni niz
-    for (let index = 0; index < arr.length; index++) {
-        if (!iskorisceniNiz.includes(arr[index])) {
-            neiskorisceniNiz.push(arr[index])
-        }
-    }
+    const neiskorisceniNiz = arr.filter(ime => !iskorisceniNiz.includes(ime));
     
     let ime = neiskorisceniNiz[Math.floor(Math.random() * neiskorisceniNiz.length)];
-    iskorisceniNiz.push(ime)
+    iskorisceniNiz.push(ime);
     return ime;
 }
 
