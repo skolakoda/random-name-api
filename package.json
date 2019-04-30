@@ -1,7 +1,8 @@
 {
   "name": "nodeServ",
   "version": "1.0.0",
-  "description": "",
+  "description": "Random Name API",
+  "repository": "https://github.com/skolakoda/random-name-api",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
