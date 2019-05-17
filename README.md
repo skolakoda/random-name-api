@@ -5,11 +5,11 @@ Random Name API vezbica
 ## API DOKUMENTACIJA
 
 GET
-192.168.0.102:8080/sva-imena
+/sva-imena
 
 GET
-192.168.0.102:8080/random
+/random
 
 POST
+/dodaj-ime
 (obavezan parametar ime)
-192.168.0.102:8080/dodaj-ime
