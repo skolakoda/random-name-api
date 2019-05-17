@@ -1,6 +1,6 @@
 # Random Name API
 
-Random Name API vezbica
+Random Name API za vezbanje u Node-u.
 
 ## API DOKUMENTACIJA
 
